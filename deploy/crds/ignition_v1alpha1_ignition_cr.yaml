@@ -1,0 +1,7 @@
+apiVersion: ignition.redhat.com/v1alpha1
+kind: Ignition
+metadata:
+  name: example-ignition
+spec:
+  # Add fields here
+  size: 3

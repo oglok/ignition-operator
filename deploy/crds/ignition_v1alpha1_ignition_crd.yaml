@@ -1,0 +1,15 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: ignitions.ignition.redhat.com
+spec:
+  group: ignition.redhat.com
+  names:
+    kind: Ignition
+    listKind: IgnitionList
+    plural: ignitions
+    singular: ignition
+  scope: Namespaced
+  version: v1alpha1
+  subresources:
+    status: {}
